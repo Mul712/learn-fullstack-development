@@ -29,9 +29,22 @@ font-size: small;
 position: absolute;
 top: 20px;
 left: 20px;
-width: fit-content;
+width: 65px;
 height: fit-content;
-border: 1px solid green;
+border: 3px solid green;
 text-align: center;
-background-color: green;
+background-color: yellowgreen;
+}
+
+.harga{
+padding: 0px 150px 0px 0px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: orange;
+}
+
+.gtw{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: green;
+margin-top: 3px;
+margin-bottom: 3px;
 }
