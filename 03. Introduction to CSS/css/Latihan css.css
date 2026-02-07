@@ -1,0 +1,24 @@
+.level1 > h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 50px;
+}
+
+.level2 {
+    margin: auto;
+    width: 200px;
+    padding: 20px 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.level3 {
+    margin: auto;
+    padding: 20px 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+p {
+   text-align: center; 
+}
