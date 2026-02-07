@@ -17,7 +17,7 @@ top: 310px;
 right: 20px;
 width: 240px;
 height: fit-content;
-border: 1px solid orange;
+border: 3px solid orangered;
 margin: auto;
 background-color: orange;
 border-radius: 10px;
@@ -47,4 +47,9 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 color: green;
 margin-top: 3px;
 margin-bottom: 3px;
+}
+
+.pesen{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+   color: orangered
 }
