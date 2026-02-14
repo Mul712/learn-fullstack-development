@@ -5,7 +5,7 @@ body {
 
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    width: 25%;
     gap: 20px;
     margin: auto;
 }
@@ -23,7 +23,6 @@ body {
 
 .product-img {
     width: 100%;
-    display: block; 
 }
 
 .badge-free-ongkir {
@@ -95,11 +94,6 @@ body {
 
 @media (max-width: 640px) {
     .product-grid {
-        grid-template-columns: repeat(2, 1fr); 
-        padding: 10px;
-    }
-    
-    .product-title {
-        font-size: 18px;
+        width: 50%;
     }
 }
