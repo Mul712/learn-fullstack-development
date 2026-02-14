@@ -1,55 +1,52 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .rel{
-padding: 15px 0px 0px 0px;
-position: relative;
-border: 1px solid black;
-width: 280px;
-height: 360px;
-text-align: center;
+    padding: 15px;
+    position: relative;
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
 }
 
 .nama{
-font-size: 150%;
+    font-size: 130%;
 }
 
 .ab1 {
-position: absolute;
-top: 310px;
-right: 20px;
-width: 240px;
-height: fit-content;
-border: 3px solid orangered;
-margin: auto;
-background-color: orange;
-border-radius: 10px;
+    height: fit-content;
+    border: 3px solid orangered;
+    margin: auto;
+    background-color: orange;
+    border-radius: 15px;
 }
 
 .ab2 {
-padding: 5px 10px;
-font-size: small;
-position: absolute;
-top: 20px;
-left: 20px;
-width: 65px;
-height: fit-content;
-border: 3px solid green;
-text-align: center;
-background-color: yellowgreen;
+    padding: 5px 10px;
+    font-size: small;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 65px;
+    height: fit-content;
+    border: 3px solid green;
+    text-align: center;
+    background-color: yellowgreen;
 }
 
 .harga{
-padding: 0px 150px 0px 0px;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-color: orange;
+    padding: 0px 150px 0px 0px;
+    color: orange;
 }
 
 .gtw{
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-color: green;
-margin-top: 3px;
-margin-bottom: 3px;
+    color: green;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 .pesen{
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
    color: orangered
 }

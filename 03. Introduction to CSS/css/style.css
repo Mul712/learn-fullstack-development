@@ -1,0 +1,74 @@
+body {
+    font-family: 'Lucida Sans', sans-serif;
+    padding: 20px;
+}
+
+.product-card {
+    width: fit-content; 
+    border: 1px solid #ddd;
+    border-radius: 8px; 
+    overflow: hidden; 
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+.card-image-wrapper {
+    position: relative;
+}
+
+.product-img {
+    width: 100%; 
+    display: block; 
+}
+
+.badge-free-ongkir {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: yellowgreen;
+    border: 2px solid green;
+    padding: 5px 15px;
+    display: flex; 
+    flex-direction: column;
+}
+
+.badge-free-ongkir span {
+    color: green;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: left; 
+}
+
+.product-title {
+    font-size: 22px;
+    margin: 0 0 10px 0; 
+}
+
+.product-price {
+    color: orange;
+    font-size: 18px;
+    margin: 0 0 20px 0; 
+}
+
+.btn-order {
+    width: 100%; 
+    padding: 12px;
+    background-color: orange;
+    color: orangered;
+    border: 2px solid orangered;
+    border-radius: 25px; 
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.btn-order:hover {
+    background-color: darkorange;
+    color: white;
+}
+
